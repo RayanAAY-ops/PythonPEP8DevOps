@@ -23,6 +23,12 @@ repos:
         args: [--safe]
         language_version: python3.12.2  # Specify your python version
 
+  - repo: https://github.com/PyCQA/flake8
+    rev: 7.0.0  # Use the latest tag from this repo
+    hooks:
+      - id: flake8
+        language_version: python3.12.2  # Specify your python version
+
   - repo: local
     hooks:
       - id: pytest

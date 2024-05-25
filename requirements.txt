@@ -1,4 +1,5 @@
-pytest
 pylint
-pre-commit
+flake8
 black
+pytest
+pre-commit
